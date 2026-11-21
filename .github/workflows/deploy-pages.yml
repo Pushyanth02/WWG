@@ -1,4 +1,4 @@
-name: Deploy Archmage: Riftbound to GitHub Pages
+name: "Deploy Archmage: Riftbound to GitHub Pages"
 
 on:
   push:
