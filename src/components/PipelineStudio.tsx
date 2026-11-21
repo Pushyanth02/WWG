@@ -19,6 +19,7 @@ import { EXTERNAL_PACK_PRESETS } from '../data/styleContract';
 import { spriteRegistry } from '../game/spriteLoader';
 import type { AssetManifest, VfxStyleTier } from '../types/game';
 import { exportPipelineStudioBundle, formatBytes } from '../utils/assetExporter';
+import { assetUrl } from '../utils/assetUrl';
 import {
   BackdropMode,
   ResolvedBackdropMode,
@@ -280,7 +281,7 @@ export function PipelineStudio() {
     img.onerror = () => {
       setLoadingSource(false);
     };
-    img.src = sample.url;
+    img.src = assetUrl(sample.url);
   };
 
   useEffect(() => {

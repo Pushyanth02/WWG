@@ -5,6 +5,7 @@ import type {
   ValidationItem,
   ValidationReport,
 } from '../types/game';
+import { assetUrl } from './assetUrl';
 import {
   createZipBlob,
   encodeUtf8,
@@ -177,9 +178,10 @@ export function buildEngineAtlasJson(
  * with zero decoding or lossy recompression.
  */
 export async function fetchRawAssetBytes(url: string): Promise<Uint8Array> {
-  const response = await fetch(url, { cache: 'no-cache' });
+  const resolved = assetUrl(url);
+  const response = await fetch(resolved, { cache: 'no-cache' });
   if (!response.ok) {
-    throw new Error(`Failed to fetch ${url} (HTTP ${response.status})`);
+    throw new Error(`Failed to fetch ${resolved} (HTTP ${response.status})`);
   }
   const buffer = await response.arrayBuffer();
   return new Uint8Array(buffer);

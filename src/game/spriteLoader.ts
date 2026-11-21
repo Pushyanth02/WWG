@@ -6,6 +6,7 @@ import type {
   ValidationReport,
   VfxStyleTier,
 } from '../types/game';
+import { assetUrl } from '../utils/assetUrl';
 
 export interface LoadedSpriteAsset {
   manifest: AssetManifest;
@@ -22,7 +23,7 @@ class SpriteRegistry {
 
   async loadMasterManifest(): Promise<MasterManifest> {
     if (!this.masterPromise) {
-      this.masterPromise = fetch('/assets/manifest.json').then((res) => {
+      this.masterPromise = fetch(assetUrl('/assets/manifest.json')).then((res) => {
         if (!res.ok) throw new Error(`Failed to fetch asset manifest (${res.status})`);
         return res.json() as Promise<MasterManifest>;
       });
@@ -32,7 +33,7 @@ class SpriteRegistry {
 
   async loadValidationReport(): Promise<ValidationReport> {
     if (!this.validationPromise) {
-      this.validationPromise = fetch('/assets/validation-report.json').then((res) => {
+      this.validationPromise = fetch(assetUrl('/assets/validation-report.json')).then((res) => {
         if (!res.ok) throw new Error(`Failed to fetch validation report (${res.status})`);
         return res.json() as Promise<ValidationReport>;
       });
@@ -60,7 +61,7 @@ class SpriteRegistry {
         resolve(loaded);
       };
       img.onerror = () => reject(new Error(`Failed to load sprite image ${manifest.sheetUrl}`));
-      img.src = manifest.sheetUrl;
+      img.src = assetUrl(manifest.sheetUrl);
     });
 
     this.loadingPromises.set(manifest.assetId, promise);

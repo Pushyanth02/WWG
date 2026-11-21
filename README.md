@@ -1,42 +1,42 @@
-# the world's worst ghost
-made by Pushyanth
+# Archmage: Riftbound
 
-you are the smallest thing in this house.
+A top-down dark-fantasy pixel-art action roguelite with a built-in V3.1 sprite pipeline, interactive Asset Lab, PVFX Foundry / Pixel Burst VFX pack importer, and lossless asset export center.
 
-you eat crumbs off the floor. the cats are twice your size and they want
-the same crumbs. when you've eaten enough you grow a little, and when you've
-grown enough there's a door on the right wall and you headbutt it until it
-opens.
+**Live Playable Build (GitHub Pages):** https://pushyanth02.github.io/WWG/
 
-you never get big. that's the whole game.
+## Features
 
----
+- **6 Playable Mage Classes** — Pyromancer, Cryomancer, Stormcaller, Voidweaver, Aethermancer, and Chronomancer with 13 elemental spell schools and Elemental Resonance combos.
+- **5 Playable Biomes & 5 Tyrant Bosses** — Cursed Grove (*Bone Regent*), Blighted Marsh (*Blight Colossus*), Undead Crypt (*Rift Leviathan*), Ashen Citadel (*Cinder Archon*), and Astral Abyss (*Astral Sovereign*), plus the 5-biome **Rift Gauntlet**.
+- **13 Animated Enemy Archetypes** — Full-body articulated 2× hi-bit pixel sprites with directional rim lighting and crevice AO.
+- **5-Stage Lit & Strict Spell VFX** — 14 built-in 5-stage spell sheets (`cast_charge`, `projectile`, `impact`, `aoe_burst`, `ground_linger`) in both **Lit Glow** and **Strict Banded** tiers, plus a tiered spell-impact light bloom, spark particle, and directional screen-shake hook.
+- **Asset Lab, Pipeline Studio & Export Center** — Inspect all 46 validated V3.1 sprite sheets (`3,942` frames, 0 adjacent duplicates), import local PVFX Foundry / Pixel Burst PNG strips + `effects.json` into live combat, and export lossless `.zip` packs with SHA-256 integrity verification.
 
-## controls
+## Controls
 
-- **move** — arrow keys or WASD
-- **scoot** — space (short dash, has a cooldown)
-- **pause** — P
-- **mute** — M
+- **Move:** `WASD` or Arrow Keys
+- **Aim & Cast:** Mouse + Left Click (`1` / `2` / `3` to swap spell slots)
+- **Phase Blink:** `Space` or `Shift`
+- **Arcane Surge:** `Q` or Right Click
+- **Health Potion:** `E`
+- **Pause:** `Esc` or `P`
 
-**on a phone:** left half of the screen steers, right half scoots. tap to start.
+## Local Development
 
-## how it plays
+```bash
+npm install
+npm run dev
+```
 
-crumbs spawn on the floor and in the air. you get more from eating them
-quickly, one after another, so it pays to chain. the cats take crumbs off you
-if they catch you, and they speed up as you level.
+### Build & Asset Pipeline Commands
 
-hit level 8 and the door appears. it takes about nine good headbutts. you
-get a few seconds between each one, which is enough time to notice a cat
-coming.
+```bash
+npm run lint              # Strict TypeScript check (tsc --noEmit)
+npm run build             # Production Vite build (dist/)
+npm run generate:assets   # Regenerate all 46 V3.1 sprite sheets + manifests
+npm run validate:assets   # Validate all 46 sheets against the V3.1 contract
+```
 
-## made for the jame gam game jam
+## Deployment
 
-theme: **i'm just a little guy**. for hackclub.
-
-## assets
-
-none. every pixel is drawn with canvas calls and every sound is generated
-with the web audio api at runtime, so there are no image, font, or audio files
-in the project at all.
+Pushing to `main` automatically runs `.github/workflows/deploy-pages.yml`, type-checks and builds the bundle with `VITE_BASE_PATH=/WWG/`, and deploys `./dist` to GitHub Pages.
