@@ -1,0 +1,88 @@
+{
+  "format_version": "ARCHMAGE_V3.1_INPUT_CONTRACT_DRAFT",
+  "description": "Intended thresholds for downstream pipeline validation. Not verified runtime compatibility with a specific Pipeline Studio binary.",
+  "pipeline_stages": [
+    {
+      "stage": 1,
+      "name": "alpha_cleanup",
+      "recommended": "Classify alpha/white/checker/obsidian/additive; only auto-key border-connected backgrounds; do not flood-key composite artwork",
+      "white_key_deltaE00": 13,
+      "halo_decontaminate_px": 2,
+      "remove_orphans_max_area_px": 5,
+      "manual_override": true
+    },
+    {
+      "stage": 2,
+      "name": "segmentation",
+      "connectivity": 8,
+      "band_hints": "02_PIPELINE_STUDIO/REGION_HINTS.json",
+      "dp_seam": {
+        "energy": "alpha_weight + Sobel_magnitude + nontransparent_penalty",
+        "max_shift_px_per_row": 2
+      },
+      "contour": "Moore_neighbor_outer_trace_or_OpenCV_external_chain_none"
+    },
+    {
+      "stage": 3,
+      "name": "CIELAB_quantization",
+      "whitepoint": "D65",
+      "metric": "CIEDE2000",
+      "outline_ink": "#140E1D",
+      "neutrals": [
+        "#171321",
+        "#292431",
+        "#383441",
+        "#51475B",
+        "#71677A",
+        "#998BA2",
+        "#B6ABBD"
+      ],
+      "protect_high_saturation": true,
+      "deltaE00_snap_max": 9
+    },
+    {
+      "stage": 4,
+      "name": "pivot_and_resampling",
+      "player_atlas_px": [
+        64,
+        64
+      ],
+      "player_pivot_px": [
+        32,
+        54
+      ],
+      "boss_atlas_px": [
+        128,
+        128
+      ],
+      "boss_pivot_px": [
+        64,
+        104
+      ],
+      "contact_foot_height_fraction": 0.2,
+      "native_downsample": "area_outline_aware",
+      "upscale": "integer_2x_nearest_neighbor"
+    },
+    {
+      "stage": 5,
+      "name": "validation",
+      "tests": [
+        "exact_sheet_dimensions",
+        "2x2_block_uniformity",
+        "ink_perimeter_coverage",
+        "mean_and_p95_CIEDE2000",
+        "residual_halo_count",
+        "feet_centroid_jitter",
+        "hurtbox_containment_and_hitbox_overflow",
+        "nonduplicate_adjacent_frames",
+        "animation_timing_contract"
+      ],
+      "fail_closed_if_frames_not_extracted": true
+    }
+  ],
+  "texture_filter": "NEAREST",
+  "color_space": "sRGB",
+  "asset_backgrounds": "mixed, see per asset classification",
+  "no_automatic_unsafe_cutting": true,
+  "pixel_snap_warning": "Full 4K concept poster boards are not spritesheet frames."
+}

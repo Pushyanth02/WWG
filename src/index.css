@@ -1,0 +1,87 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Cinzel", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-night: #171321;
+  --color-obsidian: #34283F;
+  --color-obsidian-deep: #221A2E;
+  --color-violet-arcane: #A991F7;
+  --color-gold-antique: #D9BA72;
+  --color-teal-aether: #58D6C2;
+  --color-crimson-danger: #E96578;
+}
+
+@layer base {
+  html,
+  body,
+  #root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #171321;
+    color: #efeaf7;
+    font-family: var(--font-sans);
+  }
+
+  canvas {
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+  }
+}
+
+.pixel-art {
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Custom ornate frame accents echoing Archmage reference art */
+.arcane-panel {
+  background: linear-gradient(180deg, rgba(34, 26, 46, 0.96) 0%, rgba(23, 19, 33, 0.98) 100%);
+  border: 1px solid rgba(217, 186, 114, 0.34);
+  box-shadow:
+    inset 0 1px 0 rgba(217, 186, 114, 0.16),
+    0 12px 32px rgba(8, 5, 14, 0.55);
+}
+
+.arcane-panel-subtle {
+  background: rgba(29, 22, 41, 0.92);
+  border: 1px solid rgba(169, 145, 247, 0.22);
+}
+
+.gold-divider {
+  height: 1px;
+  background: linear-gradient(90deg, transparent 0%, rgba(217, 186, 114, 0.5) 50%, transparent 100%);
+}
+
+.checkerboard-bg {
+  background-color: #1e182a;
+  background-image:
+    linear-gradient(45deg, #2a223a 25%, transparent 25%),
+    linear-gradient(-45deg, #2a223a 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, #2a223a 75%),
+    linear-gradient(-45deg, transparent 75%, #2a223a 75%);
+  background-size: 16px 16px;
+  background-position: 0 0, 0 8px, 8px -8px, -8px 0px;
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

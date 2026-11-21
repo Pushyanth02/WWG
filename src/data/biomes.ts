@@ -1,0 +1,130 @@
+import type { BiomeDef, BiomeId } from '../types/game';
+
+export const BIOMES: Record<BiomeId, BiomeDef> = {
+  cursed_grove: {
+    id: 'cursed_grove',
+    name: 'Cursed Grove',
+    subtitle: 'Obsidian Sanctuary · Blossom Ruins',
+    tilesetAssetId: 'tileset_cursed_grove',
+    bossId: 'bone_regent',
+    bossAssetId: 'boss_bone_regent',
+    bossName: 'Bone Regent',
+    bossTitle: 'Sovereign of the Fractured Ossuary',
+    accentColor: '#FF8AD4',
+    secondaryAccent: '#A991F7',
+    ambientHex: '#181126',
+    fogTint: 'rgba(196, 53, 146, 0.08)',
+    description:
+      'Moonlit gothic ruins framed by magenta arcane blossoms, violet crystal veins, and restless undead sentinels.',
+    wave1Pool: ['skeleton', 'cultist', 'bone_archer'],
+    wave2Pool: ['skeleton', 'shieldbone', 'cultist', 'wraith', 'bone_archer'],
+    wave3Adds: ['skeleton', 'cultist', 'wraith'],
+    cornerTileIndex: 9,
+    edgeDecorTileIndex: 9,
+  },
+  undead_crypt: {
+    id: 'undead_crypt',
+    name: 'Undead Crypt',
+    subtitle: 'Catacomb Vaults · Soul Lantern Halls',
+    tilesetAssetId: 'tileset_undead_crypt',
+    bossId: 'rift_leviathan',
+    bossAssetId: 'boss_rift_leviathan',
+    bossName: 'Rift Leviathan',
+    bossTitle: 'All-Seeing Maw of the Hollow Vault',
+    accentColor: '#58D6C2',
+    secondaryAccent: '#F2A849',
+    ambientHex: '#141222',
+    fogTint: 'rgba(88, 214, 194, 0.08)',
+    description:
+      'Subterranean bone vaults lit by soul-cyan lanterns and wax braziers, patrolled by necromancers and phasing wraiths.',
+    wave1Pool: ['skeleton', 'bone_archer', 'wraith'],
+    wave2Pool: ['shieldbone', 'necromancer', 'wraith', 'bone_archer', 'cultist'],
+    wave3Adds: ['wraith', 'necromancer', 'bone_archer'],
+    cornerTileIndex: 9,
+    edgeDecorTileIndex: 11,
+  },
+  blighted_marsh: {
+    id: 'blighted_marsh',
+    name: 'Blighted Marsh',
+    subtitle: 'Sunken Mire · Viridian Spore Fen',
+    tilesetAssetId: 'tileset_blighted_marsh',
+    bossId: 'blight_colossus',
+    bossAssetId: 'boss_blight_colossus',
+    bossName: 'Blight Colossus',
+    bossTitle: 'Golem of the Rotten Monolith',
+    accentColor: '#9BE870',
+    secondaryAccent: '#43B874',
+    ambientHex: '#131A21',
+    fogTint: 'rgba(67, 184, 116, 0.09)',
+    description:
+      'Drowned obsidian ruins overgrown with virulent bioluminescent spores, plagued hulks, and stitched flesh constructs.',
+    wave1Pool: ['plaguebearer', 'skeleton', 'bone_archer'],
+    wave2Pool: ['plaguebearer', 'flesh_construct', 'necromancer', 'shieldbone', 'wraith'],
+    wave3Adds: ['plaguebearer', 'flesh_construct', 'cultist'],
+    cornerTileIndex: 9,
+    edgeDecorTileIndex: 9,
+  },
+  ashen_citadel: {
+    id: 'ashen_citadel',
+    name: 'Ashen Citadel',
+    subtitle: 'Basalt Foundry · Molten Sanctum',
+    tilesetAssetId: 'tileset_ashen_citadel',
+    bossId: 'cinder_archon',
+    bossAssetId: 'boss_cinder_archon',
+    bossName: 'Cinder Archon',
+    bossTitle: 'Molten Tyrant of the Volcanic Forge',
+    accentColor: '#FF6B3D',
+    secondaryAccent: '#F7C86B',
+    ambientHex: '#20131D',
+    fogTint: 'rgba(255, 107, 61, 0.09)',
+    description:
+      'Scorched obsidian battlements split by glowing magma fissures, guarded by Ember Hounds, Obsidian Golems, and Ash Pyromancers.',
+    wave1Pool: ['ember_hound', 'ash_pyromancer', 'skeleton'],
+    wave2Pool: ['ember_hound', 'obsidian_golem', 'ash_pyromancer', 'shieldbone', 'cultist'],
+    wave3Adds: ['ember_hound', 'ash_pyromancer', 'obsidian_golem'],
+    cornerTileIndex: 9,
+    edgeDecorTileIndex: 10,
+  },
+  astral_abyss: {
+    id: 'astral_abyss',
+    name: 'Astral Abyss',
+    subtitle: 'Starlit Rift · Celestial Void Spire',
+    tilesetAssetId: 'tileset_astral_abyss',
+    bossId: 'astral_sovereign',
+    bossAssetId: 'boss_astral_sovereign',
+    bossName: 'Astral Sovereign',
+    bossTitle: 'Timeless Warden of the Fractured Firmament',
+    accentColor: '#7C9BFF',
+    secondaryAccent: '#C06CFF',
+    ambientHex: '#13142B',
+    fogTint: 'rgba(124, 155, 255, 0.09)',
+    description:
+      'Weightless obsidian terraces suspended above a shattered starfield, stalked by phasing Void Stalkers and orbiting Starlight Sentinels.',
+    wave1Pool: ['void_stalker', 'starlight_sentinel', 'wraith'],
+    wave2Pool: ['void_stalker', 'starlight_sentinel', 'necromancer', 'wraith', 'ash_pyromancer'],
+    wave3Adds: ['void_stalker', 'starlight_sentinel', 'wraith'],
+    cornerTileIndex: 9,
+    edgeDecorTileIndex: 10,
+  },
+};
+
+export const BIOME_LIST: BiomeDef[] = [
+  BIOMES.cursed_grove,
+  BIOMES.undead_crypt,
+  BIOMES.blighted_marsh,
+  BIOMES.ashen_citadel,
+  BIOMES.astral_abyss,
+];
+
+export const GAUNTLET_BIOME_ORDER: BiomeId[] = [
+  'cursed_grove',
+  'undead_crypt',
+  'blighted_marsh',
+  'ashen_citadel',
+  'astral_abyss',
+];
+
+export function getNextGauntletBiome(current: BiomeId): BiomeId {
+  const idx = GAUNTLET_BIOME_ORDER.indexOf(current);
+  return GAUNTLET_BIOME_ORDER[(idx + 1) % GAUNTLET_BIOME_ORDER.length];
+}

@@ -1,0 +1,157 @@
+{
+  "assetId": "vfx_lightning_strict",
+  "name": "Lightning Spell VFX — 5 Stages (Strict Banded Tier)",
+  "category": "vfx",
+  "subtitle": "5-Stage Pixel Burst & PVFX Foundry (Strict Banded Tier): Cast, Projectile, Impact, AoE Burst & Ground Linger",
+  "sheetUrl": "/assets/sprites/vfx_lightning_strict.png",
+  "manifestUrl": "/assets/sprites/vfx_lightning_strict.json",
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "columns": 6,
+  "rows": 5,
+  "animations": [
+    {
+      "state": "cast_charge",
+      "direction": "down",
+      "row": 0,
+      "frameCount": 6,
+      "fps": 12,
+      "loop": true,
+      "pivot": {
+        "x": 32,
+        "y": 32
+      },
+      "hitbox": {
+        "x": 10,
+        "y": 10,
+        "w": 44,
+        "h": 44
+      },
+      "hurtbox": {
+        "x": 10,
+        "y": 10,
+        "w": 44,
+        "h": 44
+      },
+      "events": []
+    },
+    {
+      "state": "projectile",
+      "direction": "down",
+      "row": 1,
+      "frameCount": 6,
+      "fps": 14,
+      "loop": true,
+      "pivot": {
+        "x": 32,
+        "y": 32
+      },
+      "hitbox": {
+        "x": 10,
+        "y": 10,
+        "w": 44,
+        "h": 44
+      },
+      "hurtbox": {
+        "x": 10,
+        "y": 10,
+        "w": 44,
+        "h": 44
+      },
+      "events": []
+    },
+    {
+      "state": "impact",
+      "direction": "down",
+      "row": 2,
+      "frameCount": 6,
+      "fps": 16,
+      "loop": false,
+      "pivot": {
+        "x": 32,
+        "y": 32
+      },
+      "hitbox": {
+        "x": 10,
+        "y": 10,
+        "w": 44,
+        "h": 44
+      },
+      "hurtbox": {
+        "x": 10,
+        "y": 10,
+        "w": 44,
+        "h": 44
+      },
+      "events": [
+        {
+          "frame": 2,
+          "name": "impact_peak"
+        }
+      ]
+    },
+    {
+      "state": "aoe_burst",
+      "direction": "down",
+      "row": 3,
+      "frameCount": 6,
+      "fps": 14,
+      "loop": false,
+      "pivot": {
+        "x": 32,
+        "y": 32
+      },
+      "hitbox": {
+        "x": 10,
+        "y": 10,
+        "w": 44,
+        "h": 44
+      },
+      "hurtbox": {
+        "x": 10,
+        "y": 10,
+        "w": 44,
+        "h": 44
+      },
+      "events": [
+        {
+          "frame": 2,
+          "name": "aoe_burst_peak"
+        }
+      ]
+    },
+    {
+      "state": "ground_linger",
+      "direction": "down",
+      "row": 4,
+      "frameCount": 6,
+      "fps": 10,
+      "loop": true,
+      "pivot": {
+        "x": 32,
+        "y": 32
+      },
+      "hitbox": {
+        "x": 10,
+        "y": 10,
+        "w": 44,
+        "h": 44
+      },
+      "hurtbox": {
+        "x": 10,
+        "y": 10,
+        "w": 44,
+        "h": 44
+      },
+      "events": []
+    }
+  ],
+  "tags": [
+    "vfx",
+    "5-stage",
+    "pvfx-strict",
+    "64x64",
+    "transparent"
+  ],
+  "integratedInDemo": true
+}

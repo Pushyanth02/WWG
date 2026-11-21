@@ -1,0 +1,1896 @@
+{
+  "version": 1,
+  "entries": [
+    {
+      "asset_id": "archmage_01",
+      "sheet_file": "01_SOURCE_4K/01_Main_Menu_and_Hub/01_4K_Enhanced_01_Main_Menu_Initial_Concept.png",
+      "hint_type": "none",
+      "frame_regions": [],
+      "automatic_row_candidates": [],
+      "notes": "Flattened scene/UI; do not run automatic character segmentation."
+    },
+    {
+      "asset_id": "archmage_02",
+      "sheet_file": "01_SOURCE_4K/01_Main_Menu_and_Hub/02_4K_Enhanced_02_Arcane_Hub_Plaza.png",
+      "hint_type": "none",
+      "frame_regions": [],
+      "automatic_row_candidates": [],
+      "notes": "Flattened scene/UI; do not run automatic character segmentation."
+    },
+    {
+      "asset_id": "archmage_03",
+      "sheet_file": "01_SOURCE_4K/01_Main_Menu_and_Hub/03_4K_Enhanced_03_Main_Menu_Original_Design.png",
+      "hint_type": "none",
+      "frame_regions": [],
+      "automatic_row_candidates": [],
+      "notes": "Flattened scene/UI; do not run automatic character segmentation."
+    },
+    {
+      "asset_id": "archmage_04",
+      "sheet_file": "01_SOURCE_4K/01_Main_Menu_and_Hub/04_4K_Enhanced_04_Main_Menu_Final_Combined_Design.png",
+      "hint_type": "none",
+      "frame_regions": [],
+      "automatic_row_candidates": [],
+      "notes": "Flattened scene/UI; do not run automatic character segmentation."
+    },
+    {
+      "asset_id": "archmage_05",
+      "sheet_file": "01_SOURCE_4K/02_Gameplay_and_Combat/05_4K_Enhanced_01_Combat_HUD_and_Battlefield.png",
+      "hint_type": "none",
+      "frame_regions": [],
+      "automatic_row_candidates": [],
+      "notes": "Flattened scene/UI; do not run automatic character segmentation."
+    },
+    {
+      "asset_id": "archmage_06",
+      "sheet_file": "01_SOURCE_4K/02_Gameplay_and_Combat/06_4K_Enhanced_02_Cursed_Grove_Bone_Regent_Battle.png",
+      "hint_type": "none",
+      "frame_regions": [],
+      "automatic_row_candidates": [],
+      "notes": "Flattened scene/UI; do not run automatic character segmentation."
+    },
+    {
+      "asset_id": "archmage_07",
+      "sheet_file": "01_SOURCE_4K/03_Upgrade_Results_Settings_UI/07_4K_Enhanced_01_Spell_Upgrade_and_Resonance_Selection.png",
+      "hint_type": "none",
+      "frame_regions": [],
+      "automatic_row_candidates": [],
+      "notes": "Flattened scene/UI; do not run automatic character segmentation."
+    },
+    {
+      "asset_id": "archmage_08",
+      "sheet_file": "01_SOURCE_4K/03_Upgrade_Results_Settings_UI/08_4K_Enhanced_02_Resonance_Upgrade_Screen.png",
+      "hint_type": "none",
+      "frame_regions": [],
+      "automatic_row_candidates": [],
+      "notes": "Flattened scene/UI; do not run automatic character segmentation."
+    },
+    {
+      "asset_id": "archmage_09",
+      "sheet_file": "01_SOURCE_4K/03_Upgrade_Results_Settings_UI/09_4K_Enhanced_03_Victory_and_Defeat_Results_Variant.png",
+      "hint_type": "none",
+      "frame_regions": [],
+      "automatic_row_candidates": [],
+      "notes": "Flattened scene/UI; do not run automatic character segmentation."
+    },
+    {
+      "asset_id": "archmage_10",
+      "sheet_file": "01_SOURCE_4K/03_Upgrade_Results_Settings_UI/10_4K_Enhanced_04_Victory_and_Defeat_Screens.png",
+      "hint_type": "none",
+      "frame_regions": [],
+      "automatic_row_candidates": [],
+      "notes": "Flattened scene/UI; do not run automatic character segmentation."
+    },
+    {
+      "asset_id": "archmage_11",
+      "sheet_file": "01_SOURCE_4K/03_Upgrade_Results_Settings_UI/11_4K_Enhanced_05_Settings_Interface_Concept.png",
+      "hint_type": "none",
+      "frame_regions": [],
+      "automatic_row_candidates": [],
+      "notes": "Flattened scene/UI; do not run automatic character segmentation."
+    },
+    {
+      "asset_id": "archmage_12",
+      "sheet_file": "01_SOURCE_4K/03_Upgrade_Results_Settings_UI/12_4K_Enhanced_06_Settings_Controls_Interface.png",
+      "hint_type": "none",
+      "frame_regions": [],
+      "automatic_row_candidates": [],
+      "notes": "Flattened scene/UI; do not run automatic character segmentation."
+    },
+    {
+      "asset_id": "archmage_13",
+      "sheet_file": "01_SOURCE_4K/03_Upgrade_Results_Settings_UI/13_4K_Enhanced_07_Buttons_HUD_and_Interface_Atlas.png",
+      "hint_type": "none",
+      "frame_regions": [],
+      "automatic_row_candidates": [],
+      "notes": "Flattened scene/UI; do not run automatic character segmentation."
+    },
+    {
+      "asset_id": "archmage_14",
+      "sheet_file": "01_SOURCE_4K/04_Player_Mages_and_Animations/14_4K_Enhanced_01_Blue_Mage_Animation_Concept.png",
+      "hint_type": "human_confirm_required",
+      "frame_regions": [],
+      "automatic_row_candidates": [
+        {
+          "y_px": 225,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.0587
+        },
+        {
+          "y_px": 428,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.1115
+        },
+        {
+          "y_px": 849,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.2211
+        },
+        {
+          "y_px": 1052,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.274
+        },
+        {
+          "y_px": 1270,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.3307
+        },
+        {
+          "y_px": 1736,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.4521
+        },
+        {
+          "y_px": 2157,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.5616
+        },
+        {
+          "y_px": 2570,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.6693
+        },
+        {
+          "y_px": 2991,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.7789
+        },
+        {
+          "y_px": 3404,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.8865
+        }
+      ],
+      "notes": "Generated illustration contains headers, labels and poses. Frame regions require manual confirmation before export."
+    },
+    {
+      "asset_id": "archmage_15",
+      "sheet_file": "01_SOURCE_4K/04_Player_Mages_and_Animations/15_4K_Enhanced_02_Blue_Mage_Directional_Animation_Sheet.png",
+      "hint_type": "human_confirm_required",
+      "frame_regions": [],
+      "automatic_row_candidates": [
+        {
+          "y_px": 391,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.1018
+        },
+        {
+          "y_px": 766,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.1996
+        },
+        {
+          "y_px": 1142,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.2975
+        },
+        {
+          "y_px": 1323,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.3444
+        },
+        {
+          "y_px": 1488,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.3875
+        },
+        {
+          "y_px": 1683,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.4384
+        },
+        {
+          "y_px": 1841,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.4795
+        },
+        {
+          "y_px": 2232,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.5812
+        },
+        {
+          "y_px": 2600,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.6771
+        },
+        {
+          "y_px": 2946,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.7671
+        },
+        {
+          "y_px": 3344,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.8708
+        }
+      ],
+      "notes": "Generated illustration contains headers, labels and poses. Frame regions require manual confirmation before export."
+    },
+    {
+      "asset_id": "archmage_16",
+      "sheet_file": "01_SOURCE_4K/04_Player_Mages_and_Animations/16_4K_Enhanced_03_Blue_Mage_Abilities_and_Animation_Overview.png",
+      "hint_type": "human_confirm_required",
+      "frame_regions": [],
+      "automatic_row_candidates": [
+        {
+          "y_px": 128,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.05
+        },
+        {
+          "y_px": 474,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.1853
+        },
+        {
+          "y_px": 617,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.2412
+        },
+        {
+          "y_px": 873,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.3412
+        },
+        {
+          "y_px": 1001,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.3912
+        },
+        {
+          "y_px": 1152,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.45
+        },
+        {
+          "y_px": 1272,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.4971
+        },
+        {
+          "y_px": 1423,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.5559
+        },
+        {
+          "y_px": 1687,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.6588
+        },
+        {
+          "y_px": 1837,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.7176
+        },
+        {
+          "y_px": 2161,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.8441
+        },
+        {
+          "y_px": 2304,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.9
+        }
+      ],
+      "notes": "Generated illustration contains headers, labels and poses. Frame regions require manual confirmation before export."
+    },
+    {
+      "asset_id": "archmage_17",
+      "sheet_file": "01_SOURCE_4K/04_Player_Mages_and_Animations/17_4K_Enhanced_04_Blue_Mage_Animation_And_VFX_Reference.png",
+      "hint_type": "human_confirm_required",
+      "frame_regions": [],
+      "automatic_row_candidates": [
+        {
+          "y_px": 323,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.0841
+        },
+        {
+          "y_px": 616,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.1605
+        },
+        {
+          "y_px": 902,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.2348
+        },
+        {
+          "y_px": 1150,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.2994
+        },
+        {
+          "y_px": 1503,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.3914
+        },
+        {
+          "y_px": 1781,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.4638
+        },
+        {
+          "y_px": 2059,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.5362
+        },
+        {
+          "y_px": 2224,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.5793
+        },
+        {
+          "y_px": 2405,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.6262
+        },
+        {
+          "y_px": 2645,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.6888
+        },
+        {
+          "y_px": 2946,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.7671
+        },
+        {
+          "y_px": 3171,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.8258
+        },
+        {
+          "y_px": 3314,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.863
+        },
+        {
+          "y_px": 3464,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.9022
+        },
+        {
+          "y_px": 3637,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.9472
+        }
+      ],
+      "notes": "Generated illustration contains headers, labels and poses. Frame regions require manual confirmation before export."
+    },
+    {
+      "asset_id": "archmage_18",
+      "sheet_file": "01_SOURCE_4K/04_Player_Mages_and_Animations/18_4K_Enhanced_05_Five_Playable_Mage_Classes_Animation_Atlas.png",
+      "hint_type": "human_confirm_required",
+      "frame_regions": [],
+      "automatic_row_candidates": [
+        {
+          "y_px": 83,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.0287
+        },
+        {
+          "y_px": 196,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.0679
+        },
+        {
+          "y_px": 301,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.1044
+        },
+        {
+          "y_px": 414,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.1436
+        },
+        {
+          "y_px": 579,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.201
+        },
+        {
+          "y_px": 692,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.2402
+        },
+        {
+          "y_px": 902,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.3133
+        },
+        {
+          "y_px": 1015,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.3525
+        },
+        {
+          "y_px": 1196,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.4151
+        },
+        {
+          "y_px": 1511,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.5248
+        },
+        {
+          "y_px": 1617,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.5614
+        },
+        {
+          "y_px": 1797,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.624
+        },
+        {
+          "y_px": 1887,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.6554
+        },
+        {
+          "y_px": 2083,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.7232
+        },
+        {
+          "y_px": 2346,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.8146
+        },
+        {
+          "y_px": 2617,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.9086
+        }
+      ],
+      "notes": "Generated illustration contains headers, labels and poses. Frame regions require manual confirmation before export."
+    },
+    {
+      "asset_id": "archmage_19",
+      "sheet_file": "01_SOURCE_4K/05_Enemies_and_Tyrant_Bosses/19_4K_Enhanced_01_Regular_Enemies_Bone_Regent_and_Props.png",
+      "hint_type": "human_confirm_required",
+      "frame_regions": [],
+      "automatic_row_candidates": [
+        {
+          "y_px": 173,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.0676
+        },
+        {
+          "y_px": 346,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.1353
+        },
+        {
+          "y_px": 535,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.2088
+        },
+        {
+          "y_px": 715,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.2794
+        },
+        {
+          "y_px": 904,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.3529
+        },
+        {
+          "y_px": 1122,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.4382
+        },
+        {
+          "y_px": 1536,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.6
+        },
+        {
+          "y_px": 1912,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.7471
+        },
+        {
+          "y_px": 2101,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.8206
+        },
+        {
+          "y_px": 2244,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.8765
+        },
+        {
+          "y_px": 2379,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.9294
+        }
+      ],
+      "notes": "Generated illustration contains headers, labels and poses. Frame regions require manual confirmation before export."
+    },
+    {
+      "asset_id": "archmage_20",
+      "sheet_file": "01_SOURCE_4K/05_Enemies_and_Tyrant_Bosses/20_4K_Enhanced_02_Original_Tyrant_Boss_Roster.png",
+      "hint_type": "human_confirm_required",
+      "frame_regions": [],
+      "automatic_row_candidates": [
+        {
+          "y_px": 165,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.0574
+        },
+        {
+          "y_px": 429,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.1488
+        },
+        {
+          "y_px": 571,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.1984
+        },
+        {
+          "y_px": 744,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.2585
+        },
+        {
+          "y_px": 872,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.3029
+        },
+        {
+          "y_px": 1083,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.376
+        },
+        {
+          "y_px": 1226,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.4256
+        },
+        {
+          "y_px": 1361,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.4726
+        },
+        {
+          "y_px": 1534,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.5326
+        },
+        {
+          "y_px": 1752,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.6084
+        },
+        {
+          "y_px": 1902,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.6606
+        },
+        {
+          "y_px": 2045,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.7102
+        },
+        {
+          "y_px": 2173,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.7546
+        },
+        {
+          "y_px": 2391,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.8303
+        },
+        {
+          "y_px": 2534,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.8799
+        },
+        {
+          "y_px": 2632,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.9138
+        }
+      ],
+      "notes": "Generated illustration contains headers, labels and poses. Frame regions require manual confirmation before export."
+    },
+    {
+      "asset_id": "archmage_21",
+      "sheet_file": "01_SOURCE_4K/05_Enemies_and_Tyrant_Bosses/21_4K_Enhanced_03_Additional_Tyrant_Bosses_Animation_Atlas.png",
+      "hint_type": "human_confirm_required",
+      "frame_regions": [],
+      "automatic_row_candidates": [
+        {
+          "y_px": 165,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.0574
+        },
+        {
+          "y_px": 331,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.1149
+        },
+        {
+          "y_px": 699,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.2428
+        },
+        {
+          "y_px": 880,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.3055
+        },
+        {
+          "y_px": 1135,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.3943
+        },
+        {
+          "y_px": 1241,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.4308
+        },
+        {
+          "y_px": 1376,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.4778
+        },
+        {
+          "y_px": 1549,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.5379
+        },
+        {
+          "y_px": 1760,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.611
+        },
+        {
+          "y_px": 1895,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.658
+        },
+        {
+          "y_px": 2023,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.7023
+        },
+        {
+          "y_px": 2181,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.7572
+        },
+        {
+          "y_px": 2391,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.8303
+        },
+        {
+          "y_px": 2527,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.8773
+        },
+        {
+          "y_px": 2707,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.9399
+        }
+      ],
+      "notes": "Generated illustration contains headers, labels and poses. Frame regions require manual confirmation before export."
+    },
+    {
+      "asset_id": "archmage_22",
+      "sheet_file": "01_SOURCE_4K/05_Enemies_and_Tyrant_Bosses/22_4K_Enhanced_04_Tyrant_Boss_Color_Palettes_and_Effects.png",
+      "hint_type": "human_confirm_required",
+      "frame_regions": [],
+      "automatic_row_candidates": [
+        {
+          "y_px": 53,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.0183
+        },
+        {
+          "y_px": 150,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.0522
+        },
+        {
+          "y_px": 331,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.1149
+        },
+        {
+          "y_px": 421,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.1462
+        },
+        {
+          "y_px": 639,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.2219
+        },
+        {
+          "y_px": 744,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.2585
+        },
+        {
+          "y_px": 842,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.2924
+        },
+        {
+          "y_px": 940,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.3264
+        },
+        {
+          "y_px": 1053,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.3655
+        },
+        {
+          "y_px": 1609,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.5587
+        },
+        {
+          "y_px": 1714,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.5953
+        },
+        {
+          "y_px": 1812,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.6292
+        },
+        {
+          "y_px": 1985,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.6893
+        },
+        {
+          "y_px": 2579,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.8956
+        },
+        {
+          "y_px": 2677,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.9295
+        },
+        {
+          "y_px": 2812,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.9765
+        }
+      ],
+      "notes": "Generated illustration contains headers, labels and poses. Frame regions require manual confirmation before export."
+    },
+    {
+      "asset_id": "archmage_23",
+      "sheet_file": "01_SOURCE_4K/06_Spells_VFX_and_Resonances/23_4K_Enhanced_01_Blue_Mage_Projectile_Impact_and_Blink_Animations.png",
+      "hint_type": "human_confirm_required",
+      "frame_regions": [],
+      "automatic_row_candidates": [
+        {
+          "y_px": 346,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.1353
+        },
+        {
+          "y_px": 602,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.2353
+        },
+        {
+          "y_px": 926,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.3618
+        },
+        {
+          "y_px": 1235,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.4824
+        },
+        {
+          "y_px": 1521,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.5941
+        },
+        {
+          "y_px": 1875,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.7324
+        },
+        {
+          "y_px": 2206,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.8618
+        }
+      ],
+      "notes": "Generated illustration contains headers, labels and poses. Frame regions require manual confirmation before export."
+    },
+    {
+      "asset_id": "archmage_24",
+      "sheet_file": "01_SOURCE_4K/06_Spells_VFX_and_Resonances/24_4K_Enhanced_02_Blue_Mage_Elemental_VFX_Reference.png",
+      "hint_type": "human_confirm_required",
+      "frame_regions": [],
+      "automatic_row_candidates": [
+        {
+          "y_px": 225,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.0587
+        },
+        {
+          "y_px": 391,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.1018
+        },
+        {
+          "y_px": 579,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.1507
+        },
+        {
+          "y_px": 954,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.2485
+        },
+        {
+          "y_px": 1172,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.3053
+        },
+        {
+          "y_px": 1368,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.3562
+        },
+        {
+          "y_px": 1556,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.4051
+        },
+        {
+          "y_px": 1781,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.4638
+        },
+        {
+          "y_px": 2157,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.5616
+        },
+        {
+          "y_px": 2352,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.6125
+        },
+        {
+          "y_px": 2570,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.6693
+        },
+        {
+          "y_px": 2938,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.7652
+        },
+        {
+          "y_px": 3104,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.8082
+        },
+        {
+          "y_px": 3321,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.865
+        },
+        {
+          "y_px": 3509,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.9139
+        },
+        {
+          "y_px": 3637,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.9472
+        }
+      ],
+      "notes": "Generated illustration contains headers, labels and poses. Frame regions require manual confirmation before export."
+    },
+    {
+      "asset_id": "archmage_25",
+      "sheet_file": "01_SOURCE_4K/06_Spells_VFX_and_Resonances/25_4K_Enhanced_03_Spell_Utility_Pickup_and_Impact_Effects.png",
+      "hint_type": "human_confirm_required",
+      "frame_regions": [],
+      "automatic_row_candidates": [
+        {
+          "y_px": 151,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.0588
+        },
+        {
+          "y_px": 294,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.1147
+        },
+        {
+          "y_px": 407,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.1588
+        },
+        {
+          "y_px": 753,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.2941
+        },
+        {
+          "y_px": 896,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.35
+        },
+        {
+          "y_px": 1032,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.4029
+        },
+        {
+          "y_px": 1152,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.45
+        },
+        {
+          "y_px": 1303,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.5088
+        },
+        {
+          "y_px": 1438,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.5618
+        },
+        {
+          "y_px": 1589,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.6206
+        },
+        {
+          "y_px": 1762,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.6882
+        },
+        {
+          "y_px": 1912,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.7471
+        },
+        {
+          "y_px": 2123,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.8294
+        },
+        {
+          "y_px": 2319,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.9059
+        }
+      ],
+      "notes": "Generated illustration contains headers, labels and poses. Frame regions require manual confirmation before export."
+    },
+    {
+      "asset_id": "archmage_26",
+      "sheet_file": "01_SOURCE_4K/06_Spells_VFX_and_Resonances/26_4K_Enhanced_04_Thirteen_Element_Spell_And_Resonance_VFX.png",
+      "hint_type": "human_confirm_required",
+      "frame_regions": [],
+      "automatic_row_candidates": [
+        {
+          "y_px": 180,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.0627
+        },
+        {
+          "y_px": 466,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.1619
+        },
+        {
+          "y_px": 617,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.2141
+        },
+        {
+          "y_px": 707,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.2454
+        },
+        {
+          "y_px": 902,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.3133
+        },
+        {
+          "y_px": 1188,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.4125
+        },
+        {
+          "y_px": 1293,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.4491
+        },
+        {
+          "y_px": 1519,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.5274
+        },
+        {
+          "y_px": 1669,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.5796
+        },
+        {
+          "y_px": 1767,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.6136
+        },
+        {
+          "y_px": 1948,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.6762
+        },
+        {
+          "y_px": 2053,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.7128
+        },
+        {
+          "y_px": 2286,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.7937
+        },
+        {
+          "y_px": 2376,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.8251
+        },
+        {
+          "y_px": 2504,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.8695
+        },
+        {
+          "y_px": 2662,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.9243
+        }
+      ],
+      "notes": "Generated illustration contains headers, labels and poses. Frame regions require manual confirmation before export."
+    },
+    {
+      "asset_id": "archmage_27",
+      "sheet_file": "01_SOURCE_4K/06_Spells_VFX_and_Resonances/27_4K_Enhanced_05_Elemental_Spell_VFX_Reference.png",
+      "hint_type": "human_confirm_required",
+      "frame_regions": [],
+      "automatic_row_candidates": [
+        {
+          "y_px": 188,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.0653
+        },
+        {
+          "y_px": 323,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.1123
+        },
+        {
+          "y_px": 444,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.154
+        },
+        {
+          "y_px": 571,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.1984
+        },
+        {
+          "y_px": 707,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.2454
+        },
+        {
+          "y_px": 857,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.2977
+        },
+        {
+          "y_px": 1053,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.3655
+        },
+        {
+          "y_px": 1406,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.4883
+        },
+        {
+          "y_px": 1519,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.5274
+        },
+        {
+          "y_px": 1669,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.5796
+        },
+        {
+          "y_px": 1835,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.6371
+        },
+        {
+          "y_px": 2166,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.752
+        },
+        {
+          "y_px": 2286,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.7937
+        },
+        {
+          "y_px": 2444,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.8486
+        },
+        {
+          "y_px": 2617,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.9086
+        },
+        {
+          "y_px": 2722,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.9452
+        }
+      ],
+      "notes": "Generated illustration contains headers, labels and poses. Frame regions require manual confirmation before export."
+    },
+    {
+      "asset_id": "archmage_28",
+      "sheet_file": "01_SOURCE_4K/06_Spells_VFX_and_Resonances/28_4K_Enhanced_06_Fire_Projectiles_Explosions_and_Impact_Sequences.png",
+      "hint_type": "human_confirm_required",
+      "frame_regions": [],
+      "automatic_row_candidates": [
+        {
+          "y_px": 188,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.0653
+        },
+        {
+          "y_px": 316,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.1097
+        },
+        {
+          "y_px": 534,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.1854
+        },
+        {
+          "y_px": 632,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.2193
+        },
+        {
+          "y_px": 850,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.295
+        },
+        {
+          "y_px": 963,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.3342
+        },
+        {
+          "y_px": 1196,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.4151
+        },
+        {
+          "y_px": 1308,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.4543
+        },
+        {
+          "y_px": 1526,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.53
+        },
+        {
+          "y_px": 1639,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.5692
+        },
+        {
+          "y_px": 1948,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.6762
+        },
+        {
+          "y_px": 2068,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.718
+        },
+        {
+          "y_px": 2241,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.7781
+        },
+        {
+          "y_px": 2572,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.893
+        },
+        {
+          "y_px": 2684,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.9321
+        },
+        {
+          "y_px": 2820,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.9791
+        }
+      ],
+      "notes": "Generated illustration contains headers, labels and poses. Frame regions require manual confirmation before export."
+    },
+    {
+      "asset_id": "archmage_29",
+      "sheet_file": "01_SOURCE_4K/06_Spells_VFX_and_Resonances/29_4K_Enhanced_07_Resonance_Abilities_And_Rune_Icons.png",
+      "hint_type": "human_confirm_required",
+      "frame_regions": [],
+      "automatic_row_candidates": [
+        {
+          "y_px": 248,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.0862
+        },
+        {
+          "y_px": 399,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.1384
+        },
+        {
+          "y_px": 556,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.1932
+        },
+        {
+          "y_px": 692,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.2402
+        },
+        {
+          "y_px": 820,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.2846
+        },
+        {
+          "y_px": 1053,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.3655
+        },
+        {
+          "y_px": 1293,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.4491
+        },
+        {
+          "y_px": 1406,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.4883
+        },
+        {
+          "y_px": 1542,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.5352
+        },
+        {
+          "y_px": 1647,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.5718
+        },
+        {
+          "y_px": 1790,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.6214
+        },
+        {
+          "y_px": 1917,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.6658
+        },
+        {
+          "y_px": 2060,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.7154
+        },
+        {
+          "y_px": 2421,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.8407
+        },
+        {
+          "y_px": 2639,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.9164
+        },
+        {
+          "y_px": 2790,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.9687
+        }
+      ],
+      "notes": "Generated illustration contains headers, labels and poses. Frame regions require manual confirmation before export."
+    },
+    {
+      "asset_id": "archmage_30",
+      "sheet_file": "01_SOURCE_4K/07_Maps_Biomes_and_Gameplay_Asset_Boards/30_4K_Enhanced_01_Top_Down_Environment_Tiles_And_Props.png",
+      "hint_type": "human_confirm_required",
+      "frame_regions": [],
+      "automatic_row_candidates": [
+        {
+          "y_px": 286,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.1118
+        },
+        {
+          "y_px": 452,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.1765
+        },
+        {
+          "y_px": 670,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.2618
+        },
+        {
+          "y_px": 791,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.3088
+        },
+        {
+          "y_px": 881,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.3441
+        },
+        {
+          "y_px": 1039,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.4059
+        },
+        {
+          "y_px": 1235,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.4824
+        },
+        {
+          "y_px": 1453,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.5676
+        },
+        {
+          "y_px": 1664,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.65
+        },
+        {
+          "y_px": 1830,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.7147
+        },
+        {
+          "y_px": 1958,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.7647
+        },
+        {
+          "y_px": 2304,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.9
+        }
+      ],
+      "notes": "Generated illustration contains headers, labels and poses. Frame regions require manual confirmation before export."
+    },
+    {
+      "asset_id": "archmage_31",
+      "sheet_file": "01_SOURCE_4K/07_Maps_Biomes_and_Gameplay_Asset_Boards/31_4K_Enhanced_02_World_Enemies_VFX_and_UI_Asset_Board.png",
+      "hint_type": "human_confirm_required",
+      "frame_regions": [],
+      "automatic_row_candidates": [
+        {
+          "y_px": 105,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.0412
+        },
+        {
+          "y_px": 203,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.0794
+        },
+        {
+          "y_px": 414,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.1618
+        },
+        {
+          "y_px": 580,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.2265
+        },
+        {
+          "y_px": 919,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.3588
+        },
+        {
+          "y_px": 1122,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.4382
+        },
+        {
+          "y_px": 1295,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.5059
+        },
+        {
+          "y_px": 1476,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.5765
+        },
+        {
+          "y_px": 1596,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.6235
+        },
+        {
+          "y_px": 1717,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.6706
+        },
+        {
+          "y_px": 1807,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.7059
+        },
+        {
+          "y_px": 1905,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.7441
+        },
+        {
+          "y_px": 2048,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.8
+        },
+        {
+          "y_px": 2244,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.8765
+        },
+        {
+          "y_px": 2379,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.9294
+        },
+        {
+          "y_px": 2485,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.9706
+        }
+      ],
+      "notes": "Generated illustration contains headers, labels and poses. Frame regions require manual confirmation before export."
+    },
+    {
+      "asset_id": "archmage_32",
+      "sheet_file": "01_SOURCE_4K/07_Maps_Biomes_and_Gameplay_Asset_Boards/32_4K_Enhanced_03_Complete_Gameplay_Asset_Overview.png",
+      "hint_type": "human_confirm_required",
+      "frame_regions": [],
+      "automatic_row_candidates": [
+        {
+          "y_px": 98,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.0382
+        },
+        {
+          "y_px": 218,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.0853
+        },
+        {
+          "y_px": 331,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.1294
+        },
+        {
+          "y_px": 467,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.1824
+        },
+        {
+          "y_px": 663,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.2588
+        },
+        {
+          "y_px": 791,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.3088
+        },
+        {
+          "y_px": 934,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.3647
+        },
+        {
+          "y_px": 1047,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.4088
+        },
+        {
+          "y_px": 1175,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.4588
+        },
+        {
+          "y_px": 1423,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.5559
+        },
+        {
+          "y_px": 1664,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.65
+        },
+        {
+          "y_px": 1852,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.7235
+        },
+        {
+          "y_px": 2108,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.8235
+        },
+        {
+          "y_px": 2229,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.8706
+        },
+        {
+          "y_px": 2357,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.9206
+        },
+        {
+          "y_px": 2462,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.9618
+        }
+      ],
+      "notes": "Generated illustration contains headers, labels and poses. Frame regions require manual confirmation before export."
+    },
+    {
+      "asset_id": "archmage_33",
+      "sheet_file": "01_SOURCE_4K/07_Maps_Biomes_and_Gameplay_Asset_Boards/33_4K_Enhanced_04_Game_Assets_and_Environment_Variants.png",
+      "hint_type": "human_confirm_required",
+      "frame_regions": [],
+      "automatic_row_candidates": [
+        {
+          "y_px": 113,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.0441
+        },
+        {
+          "y_px": 264,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.1029
+        },
+        {
+          "y_px": 467,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.1824
+        },
+        {
+          "y_px": 565,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.2206
+        },
+        {
+          "y_px": 655,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.2559
+        },
+        {
+          "y_px": 866,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.3382
+        },
+        {
+          "y_px": 979,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.3824
+        },
+        {
+          "y_px": 1152,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.45
+        },
+        {
+          "y_px": 1325,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.5176
+        },
+        {
+          "y_px": 1431,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.5588
+        },
+        {
+          "y_px": 1581,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.6176
+        },
+        {
+          "y_px": 1702,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.6647
+        },
+        {
+          "y_px": 1875,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.7324
+        },
+        {
+          "y_px": 2056,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.8029
+        },
+        {
+          "y_px": 2168,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.8471
+        },
+        {
+          "y_px": 2319,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.9059
+        }
+      ],
+      "notes": "Generated illustration contains headers, labels and poses. Frame regions require manual confirmation before export."
+    },
+    {
+      "asset_id": "archmage_34",
+      "sheet_file": "01_SOURCE_4K/07_Maps_Biomes_and_Gameplay_Asset_Boards/34_4K_Enhanced_05_Five_Biome_Map_Tileset_Atlas.png",
+      "hint_type": "human_confirm_required",
+      "frame_regions": [],
+      "automatic_row_candidates": [
+        {
+          "y_px": 196,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.0679
+        },
+        {
+          "y_px": 316,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.1097
+        },
+        {
+          "y_px": 647,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.2245
+        },
+        {
+          "y_px": 790,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.2742
+        },
+        {
+          "y_px": 955,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.3316
+        },
+        {
+          "y_px": 1128,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.3916
+        },
+        {
+          "y_px": 1271,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.4413
+        },
+        {
+          "y_px": 1587,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.5509
+        },
+        {
+          "y_px": 2053,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.7128
+        },
+        {
+          "y_px": 2406,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.8355
+        },
+        {
+          "y_px": 2579,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.8956
+        },
+        {
+          "y_px": 2722,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.9452
+        }
+      ],
+      "notes": "Generated illustration contains headers, labels and poses. Frame regions require manual confirmation before export."
+    },
+    {
+      "asset_id": "archmage_35",
+      "sheet_file": "01_SOURCE_4K/07_Maps_Biomes_and_Gameplay_Asset_Boards/35_4K_Enhanced_06_Mage_Enemies_Biomes_Concept_Montage.png",
+      "hint_type": "human_confirm_required",
+      "frame_regions": [],
+      "automatic_row_candidates": [
+        {
+          "y_px": 248,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.0971
+        },
+        {
+          "y_px": 580,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.2265
+        },
+        {
+          "y_px": 1024,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.4
+        },
+        {
+          "y_px": 1212,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.4735
+        },
+        {
+          "y_px": 1438,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.5618
+        },
+        {
+          "y_px": 1672,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.6529
+        },
+        {
+          "y_px": 1965,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.7676
+        },
+        {
+          "y_px": 2357,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.9206
+        },
+        {
+          "y_px": 2462,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.9618
+        }
+      ],
+      "notes": "Generated illustration contains headers, labels and poses. Frame regions require manual confirmation before export."
+    },
+    {
+      "asset_id": "archmage_36",
+      "sheet_file": "01_SOURCE_4K/07_Maps_Biomes_and_Gameplay_Asset_Boards/36_4K_Enhanced_07_Combat_Characters_And_Gameplay_Art_Showcase.png",
+      "hint_type": "human_confirm_required",
+      "frame_regions": [],
+      "automatic_row_candidates": [
+        {
+          "y_px": 143,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.0559
+        },
+        {
+          "y_px": 361,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.1412
+        },
+        {
+          "y_px": 535,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.2088
+        },
+        {
+          "y_px": 836,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.3265
+        },
+        {
+          "y_px": 1137,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.4441
+        },
+        {
+          "y_px": 1288,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.5029
+        },
+        {
+          "y_px": 1589,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.6206
+        },
+        {
+          "y_px": 1807,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.7059
+        },
+        {
+          "y_px": 1950,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.7618
+        },
+        {
+          "y_px": 2108,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.8235
+        },
+        {
+          "y_px": 2327,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.9088
+        },
+        {
+          "y_px": 2455,
+          "confidence": "UNVERIFIED_HEURISTIC",
+          "relative_y": 0.9588
+        }
+      ],
+      "notes": "Generated illustration contains headers, labels and poses. Frame regions require manual confirmation before export."
+    }
+  ]
+}
