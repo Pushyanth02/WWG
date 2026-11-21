@@ -1,0 +1,69 @@
+{
+  "notice": "Not legal advice. These are prompts to verify creator-specific permissions, NOT permission to share/use packs. The 4K archive includes none of these packs.",
+  "packs": [
+    {
+      "name": "Pixel Frog \u2014 Tiny Swords",
+      "url": "https://pixelfrog-assets.itch.io/tiny-swords",
+      "status": "not_included",
+      "license": "check_specific_free_vs_paid_version",
+      "raw_redistribution": "restricted",
+      "ai_training": "verify_creator_terms"
+    },
+    {
+      "name": "Ansimuz Gothicvania Collection",
+      "url": "https://ansimuz.itch.io/gothicvania-patreon-collection",
+      "status": "not_included",
+      "license": "check_included_license",
+      "raw_redistribution": "verify",
+      "ai_training": "verify_creator_terms"
+    },
+    {
+      "name": "Clockwork Raven Fantasy Icons",
+      "url": "https://clockworkraven.itch.io/raven-fantasy-icons",
+      "status": "not_included",
+      "license": "free_personal_use_vs_premium_commercial",
+      "raw_redistribution": "restricted",
+      "ai_training": "verify_creator_terms"
+    },
+    {
+      "name": "CraftPix Cursed Land",
+      "url": "https://free-game-assets.itch.io/free-cursed-land-top-down-pixel-art-tileset",
+      "status": "not_included",
+      "license": "craftpix_game_use_policy",
+      "raw_redistribution": "restricted",
+      "ai_training": "restrictions_apply"
+    },
+    {
+      "name": "CraftPix Undead",
+      "url": "https://free-game-assets.itch.io/free-undead-tileset-top-down-pixel-art",
+      "status": "not_included",
+      "license": "craftpix_game_use_policy",
+      "raw_redistribution": "restricted",
+      "ai_training": "restrictions_apply"
+    },
+    {
+      "name": "Chequered Ink 400+ Sounds",
+      "url": "https://ci.itch.io/400-sounds-pack",
+      "status": "not_included",
+      "license": "read_author_license",
+      "raw_redistribution": "restricted",
+      "ai_training": "verify_creator_terms"
+    },
+    {
+      "name": "unTied Super Pixel Effects Gigapack",
+      "url": "https://untiedgames.itch.io/super-pixel-effects-gigapack",
+      "status": "not_included",
+      "license": "free_version_vs_paid_license",
+      "raw_redistribution": "restricted",
+      "ai_training": "verify_creator_terms"
+    },
+    {
+      "name": "AbyssOwl Gothic Pixel UI",
+      "url": "https://abyssowl.itch.io/gothic-pixel-ui",
+      "status": "not_included",
+      "license": "credit_required_for_commercial_use",
+      "raw_redistribution": "restricted",
+      "ai_training": "restricted"
+    }
+  ]
+}

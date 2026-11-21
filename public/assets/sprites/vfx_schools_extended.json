@@ -1,0 +1,273 @@
+{
+  "assetId": "vfx_schools_extended",
+  "name": "Extended 10 Elemental Schools (Lit Tier)",
+  "category": "vfx",
+  "subtitle": "Pixel Burst & PVFX Foundry (Lit Tier) projectiles & impacts for Earth through Sonic",
+  "sheetUrl": "/assets/sprites/vfx_schools_extended.png",
+  "manifestUrl": "/assets/sprites/vfx_schools_extended.json",
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "columns": 6,
+  "rows": 10,
+  "animations": [
+    {
+      "state": "earth",
+      "direction": "down",
+      "row": 0,
+      "frameCount": 6,
+      "fps": 14,
+      "loop": true,
+      "pivot": {
+        "x": 32,
+        "y": 32
+      },
+      "hitbox": {
+        "x": 10,
+        "y": 10,
+        "w": 44,
+        "h": 44
+      },
+      "hurtbox": {
+        "x": 10,
+        "y": 10,
+        "w": 44,
+        "h": 44
+      },
+      "events": []
+    },
+    {
+      "state": "shadow",
+      "direction": "down",
+      "row": 1,
+      "frameCount": 6,
+      "fps": 14,
+      "loop": true,
+      "pivot": {
+        "x": 32,
+        "y": 32
+      },
+      "hitbox": {
+        "x": 10,
+        "y": 10,
+        "w": 44,
+        "h": 44
+      },
+      "hurtbox": {
+        "x": 10,
+        "y": 10,
+        "w": 44,
+        "h": 44
+      },
+      "events": []
+    },
+    {
+      "state": "light",
+      "direction": "down",
+      "row": 2,
+      "frameCount": 6,
+      "fps": 14,
+      "loop": true,
+      "pivot": {
+        "x": 32,
+        "y": 32
+      },
+      "hitbox": {
+        "x": 10,
+        "y": 10,
+        "w": 44,
+        "h": 44
+      },
+      "hurtbox": {
+        "x": 10,
+        "y": 10,
+        "w": 44,
+        "h": 44
+      },
+      "events": []
+    },
+    {
+      "state": "time",
+      "direction": "down",
+      "row": 3,
+      "frameCount": 6,
+      "fps": 14,
+      "loop": true,
+      "pivot": {
+        "x": 32,
+        "y": 32
+      },
+      "hitbox": {
+        "x": 10,
+        "y": 10,
+        "w": 44,
+        "h": 44
+      },
+      "hurtbox": {
+        "x": 10,
+        "y": 10,
+        "w": 44,
+        "h": 44
+      },
+      "events": []
+    },
+    {
+      "state": "void",
+      "direction": "down",
+      "row": 4,
+      "frameCount": 6,
+      "fps": 14,
+      "loop": true,
+      "pivot": {
+        "x": 32,
+        "y": 32
+      },
+      "hitbox": {
+        "x": 10,
+        "y": 10,
+        "w": 44,
+        "h": 44
+      },
+      "hurtbox": {
+        "x": 10,
+        "y": 10,
+        "w": 44,
+        "h": 44
+      },
+      "events": []
+    },
+    {
+      "state": "arcane",
+      "direction": "down",
+      "row": 5,
+      "frameCount": 6,
+      "fps": 14,
+      "loop": true,
+      "pivot": {
+        "x": 32,
+        "y": 32
+      },
+      "hitbox": {
+        "x": 10,
+        "y": 10,
+        "w": 44,
+        "h": 44
+      },
+      "hurtbox": {
+        "x": 10,
+        "y": 10,
+        "w": 44,
+        "h": 44
+      },
+      "events": []
+    },
+    {
+      "state": "blood",
+      "direction": "down",
+      "row": 6,
+      "frameCount": 6,
+      "fps": 14,
+      "loop": true,
+      "pivot": {
+        "x": 32,
+        "y": 32
+      },
+      "hitbox": {
+        "x": 10,
+        "y": 10,
+        "w": 44,
+        "h": 44
+      },
+      "hurtbox": {
+        "x": 10,
+        "y": 10,
+        "w": 44,
+        "h": 44
+      },
+      "events": []
+    },
+    {
+      "state": "nature",
+      "direction": "down",
+      "row": 7,
+      "frameCount": 6,
+      "fps": 14,
+      "loop": true,
+      "pivot": {
+        "x": 32,
+        "y": 32
+      },
+      "hitbox": {
+        "x": 10,
+        "y": 10,
+        "w": 44,
+        "h": 44
+      },
+      "hurtbox": {
+        "x": 10,
+        "y": 10,
+        "w": 44,
+        "h": 44
+      },
+      "events": []
+    },
+    {
+      "state": "wind",
+      "direction": "down",
+      "row": 8,
+      "frameCount": 6,
+      "fps": 14,
+      "loop": true,
+      "pivot": {
+        "x": 32,
+        "y": 32
+      },
+      "hitbox": {
+        "x": 10,
+        "y": 10,
+        "w": 44,
+        "h": 44
+      },
+      "hurtbox": {
+        "x": 10,
+        "y": 10,
+        "w": 44,
+        "h": 44
+      },
+      "events": []
+    },
+    {
+      "state": "sonic",
+      "direction": "down",
+      "row": 9,
+      "frameCount": 6,
+      "fps": 14,
+      "loop": true,
+      "pivot": {
+        "x": 32,
+        "y": 32
+      },
+      "hitbox": {
+        "x": 10,
+        "y": 10,
+        "w": 44,
+        "h": 44
+      },
+      "hurtbox": {
+        "x": 10,
+        "y": 10,
+        "w": 44,
+        "h": 44
+      },
+      "events": []
+    }
+  ],
+  "tags": [
+    "vfx",
+    "5-stage",
+    "pvfx-lit",
+    "13-schools",
+    "64x64",
+    "transparent"
+  ],
+  "integratedInDemo": true
+}

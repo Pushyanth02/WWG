@@ -1,0 +1,188 @@
+{
+  "assetId": "vfx_arcane_utility",
+  "name": "Blink, Surge & Tyrant Rift VFX (Lit Additive Tier)",
+  "category": "vfx",
+  "subtitle": "PVFX Foundry (Lit Additive Tier) Blink ring, Aether Surge nova, Boss Rift, Cultist Orb, Cinder Meteor & Astral Lance",
+  "sheetUrl": "/assets/sprites/vfx_arcane_utility.png",
+  "manifestUrl": "/assets/sprites/vfx_arcane_utility.json",
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "columns": 6,
+  "rows": 6,
+  "animations": [
+    {
+      "state": "blink",
+      "direction": "down",
+      "row": 0,
+      "frameCount": 6,
+      "fps": 14,
+      "loop": false,
+      "pivot": {
+        "x": 32,
+        "y": 32
+      },
+      "hitbox": {
+        "x": 10,
+        "y": 10,
+        "w": 44,
+        "h": 44
+      },
+      "hurtbox": {
+        "x": 10,
+        "y": 10,
+        "w": 44,
+        "h": 44
+      },
+      "events": []
+    },
+    {
+      "state": "surge",
+      "direction": "down",
+      "row": 1,
+      "frameCount": 6,
+      "fps": 14,
+      "loop": false,
+      "pivot": {
+        "x": 32,
+        "y": 32
+      },
+      "hitbox": {
+        "x": 10,
+        "y": 10,
+        "w": 44,
+        "h": 44
+      },
+      "hurtbox": {
+        "x": 10,
+        "y": 10,
+        "w": 44,
+        "h": 44
+      },
+      "events": [
+        {
+          "frame": 2,
+          "name": "surge_peak"
+        }
+      ]
+    },
+    {
+      "state": "boss_nova",
+      "direction": "down",
+      "row": 2,
+      "frameCount": 6,
+      "fps": 14,
+      "loop": false,
+      "pivot": {
+        "x": 32,
+        "y": 32
+      },
+      "hitbox": {
+        "x": 10,
+        "y": 10,
+        "w": 44,
+        "h": 44
+      },
+      "hurtbox": {
+        "x": 10,
+        "y": 10,
+        "w": 44,
+        "h": 44
+      },
+      "events": [
+        {
+          "frame": 2,
+          "name": "boss_nova_peak"
+        }
+      ]
+    },
+    {
+      "state": "cultist_orb",
+      "direction": "down",
+      "row": 3,
+      "frameCount": 6,
+      "fps": 12,
+      "loop": true,
+      "pivot": {
+        "x": 32,
+        "y": 32
+      },
+      "hitbox": {
+        "x": 10,
+        "y": 10,
+        "w": 44,
+        "h": 44
+      },
+      "hurtbox": {
+        "x": 10,
+        "y": 10,
+        "w": 44,
+        "h": 44
+      },
+      "events": []
+    },
+    {
+      "state": "cinder_meteor",
+      "direction": "down",
+      "row": 4,
+      "frameCount": 6,
+      "fps": 14,
+      "loop": false,
+      "pivot": {
+        "x": 32,
+        "y": 32
+      },
+      "hitbox": {
+        "x": 10,
+        "y": 10,
+        "w": 44,
+        "h": 44
+      },
+      "hurtbox": {
+        "x": 10,
+        "y": 10,
+        "w": 44,
+        "h": 44
+      },
+      "events": [
+        {
+          "frame": 2,
+          "name": "cinder_meteor_peak"
+        }
+      ]
+    },
+    {
+      "state": "astral_lance",
+      "direction": "down",
+      "row": 5,
+      "frameCount": 6,
+      "fps": 14,
+      "loop": true,
+      "pivot": {
+        "x": 32,
+        "y": 32
+      },
+      "hitbox": {
+        "x": 10,
+        "y": 10,
+        "w": 44,
+        "h": 44
+      },
+      "hurtbox": {
+        "x": 10,
+        "y": 10,
+        "w": 44,
+        "h": 44
+      },
+      "events": []
+    }
+  ],
+  "tags": [
+    "vfx",
+    "5-stage",
+    "boss",
+    "pvfx-lit",
+    "64x64",
+    "transparent"
+  ],
+  "integratedInDemo": true
+}

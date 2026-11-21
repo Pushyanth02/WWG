@@ -1,0 +1,6 @@
+{
+  "name": "Archmage: Riftbound",
+  "description": "Dark-fantasy pixel-art action roguelite vertical slice and interactive sprite Asset Lab.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

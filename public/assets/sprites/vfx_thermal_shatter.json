@@ -1,0 +1,107 @@
+{
+  "assetId": "vfx_thermal_shatter",
+  "name": "Thermal Shatter Resonance VFX (Lit Additive Tier)",
+  "category": "vfx",
+  "subtitle": "PVFX Foundry & Pixel Burst (Lit Additive Tier) Fire + Ice dual shockwave detonation & vapor field",
+  "sheetUrl": "/assets/sprites/vfx_thermal_shatter.png",
+  "manifestUrl": "/assets/sprites/vfx_thermal_shatter.json",
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "columns": 6,
+  "rows": 3,
+  "animations": [
+    {
+      "state": "impact",
+      "direction": "down",
+      "row": 0,
+      "frameCount": 6,
+      "fps": 16,
+      "loop": false,
+      "pivot": {
+        "x": 32,
+        "y": 32
+      },
+      "hitbox": {
+        "x": 10,
+        "y": 10,
+        "w": 44,
+        "h": 44
+      },
+      "hurtbox": {
+        "x": 10,
+        "y": 10,
+        "w": 44,
+        "h": 44
+      },
+      "events": [
+        {
+          "frame": 2,
+          "name": "impact_peak"
+        }
+      ]
+    },
+    {
+      "state": "aoe_burst",
+      "direction": "down",
+      "row": 1,
+      "frameCount": 6,
+      "fps": 14,
+      "loop": false,
+      "pivot": {
+        "x": 32,
+        "y": 32
+      },
+      "hitbox": {
+        "x": 10,
+        "y": 10,
+        "w": 44,
+        "h": 44
+      },
+      "hurtbox": {
+        "x": 10,
+        "y": 10,
+        "w": 44,
+        "h": 44
+      },
+      "events": [
+        {
+          "frame": 2,
+          "name": "aoe_burst_peak"
+        }
+      ]
+    },
+    {
+      "state": "ground_linger",
+      "direction": "down",
+      "row": 2,
+      "frameCount": 6,
+      "fps": 10,
+      "loop": true,
+      "pivot": {
+        "x": 32,
+        "y": 32
+      },
+      "hitbox": {
+        "x": 10,
+        "y": 10,
+        "w": 44,
+        "h": 44
+      },
+      "hurtbox": {
+        "x": 10,
+        "y": 10,
+        "w": 44,
+        "h": 44
+      },
+      "events": []
+    }
+  ],
+  "tags": [
+    "vfx",
+    "5-stage",
+    "pvfx-lit",
+    "64x64",
+    "transparent"
+  ],
+  "integratedInDemo": true
+}
